@@ -3,5 +3,5 @@ base:
     - sensu-client
 
 development:
-  'G@ienvironemnt:development':
+  'G@environemnt:development':
     - TODO
