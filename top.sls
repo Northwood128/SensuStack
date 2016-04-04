@@ -5,6 +5,6 @@ base:
     - formulas.sensu-formula.sensu.server
     - formulas.sensu-formula.sensu.uchiwa
 
-development:
-  'G@environemnt:development':
-    - TODO
+#development:
+#  'G@environemnt:development':
+#    - TODO
