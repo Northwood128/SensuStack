@@ -1,5 +1,5 @@
 base:
-  'sensumaster':
+  'sensuserver':
     - sensu
     - sensu.client
     - sensu.server
