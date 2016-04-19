@@ -3,5 +3,5 @@ sensu:
     - enable: True
     - restart: True
     - watch:
-      - /etc/sensu/config.json
-      - /etc/sensu/conf.d/*
+      - file: /etc/sensu/config.json
+      - file: /etc/sensu/conf.d/*
