@@ -8,7 +8,7 @@ sensu-conf-dir:
     - name: /etc/sensu/conf.d
     - source: salt://conf.d
 
-sensu:
+sensu-client:
   service.running:
     - enable: True
     - restart: True
