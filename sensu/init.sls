@@ -6,7 +6,7 @@ sensu-config:
 sensu-conf-dir:
   file.recurse:
     -name: /etc/sensu/conf.d
-    - source: salt://conf.d
+    - source: salt://conf\.d
 
 sensu:
   service.running:
