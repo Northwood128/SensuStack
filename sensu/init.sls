@@ -14,4 +14,4 @@ sensu:
     - restart: True
     - watch:
       - file: /etc/sensu/config.json
-      - file: /etc/sensu/conf.d/*
+      - file: /etc/sensu/conf.d
