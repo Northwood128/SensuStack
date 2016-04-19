@@ -1,5 +1,5 @@
 sensu:
-  - service.running:
+  service.running:
     - enable: True
     - restart: True
     - watch:
