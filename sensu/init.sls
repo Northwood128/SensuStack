@@ -8,5 +8,4 @@ sensu-client:
     - enable: True
     - restart: True
     - watch:
-      - file: sensu-config
       - file: sensu-conf-dir
